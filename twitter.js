@@ -43,6 +43,6 @@ var getTweets = function(access_token){
 	});
 };
 
-exports.getLatest20Tweets = function() {
+module.exports.get20Tweets = function() {
 	getTwitterBearerToken(getTweets);
 }
